@@ -25,12 +25,12 @@ class InstalledVersions
 private static $installed = array (
   'root' => 
   array (
-    'pretty_version' => '1.0.0+no-version-set',
-    'version' => '1.0.0.0',
+    'pretty_version' => 'dev-master',
+    'version' => 'dev-master',
     'aliases' => 
     array (
     ),
-    'reference' => NULL,
+    'reference' => '1fc7ecb889411901c8186c1fcbda5724c95a3b78',
     'name' => 'laravel/laravel',
   ),
   'versions' => 
@@ -509,12 +509,12 @@ private static $installed = array (
     ),
     'laravel/laravel' => 
     array (
-      'pretty_version' => '1.0.0+no-version-set',
-      'version' => '1.0.0.0',
+      'pretty_version' => 'dev-master',
+      'version' => 'dev-master',
       'aliases' => 
       array (
       ),
-      'reference' => NULL,
+      'reference' => '1fc7ecb889411901c8186c1fcbda5724c95a3b78',
     ),
     'laravel/serializable-closure' => 
     array (
@@ -542,6 +542,15 @@ private static $installed = array (
       array (
       ),
       'reference' => '5062061b4924af3392225dd482ca7b4d85d8b8ef',
+    ),
+    'laravel/ui' => 
+    array (
+      'pretty_version' => 'v3.4.6',
+      'version' => '3.4.6.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '65ec5c03f7fee2c8ecae785795b829a15be48c2c',
     ),
     'lcobucci/jwt' => 
     array (

@@ -55,7 +55,7 @@ Route::prefix('admin')->group(function () {
     Route::get('/conv/notf/count', [App\Http\Controllers\Admin\NotificationController::class, 'conv_notf_count'])->name('conv-notf-count');
     Route::get('/conv/notf/clear', [App\Http\Controllers\Admin\NotificationController::class, 'conv_notf_clear'])->name('conv-notf-clear');
 // Product Notification Ends
-
+ 
 //------------ ADMIN NOTIFICATION SECTION ENDS ------------
 
     Route::group(['middleware' => 'adminAuth'], function () {
