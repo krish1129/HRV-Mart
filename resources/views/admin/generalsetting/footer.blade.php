@@ -6,7 +6,7 @@
               <div class="mr-breadcrumb">
                 <div class="row">
                   <div class="col-lg-12">
-                      <h4 class="heading">{{ __('Website Footer') }}</h4>
+                      <h4 class="heading">Website Footer</h4>
                     <ul class="links">
                       <li>
                         <a href="{{ route('admin.dashboard') }}">{{ __('Dashboard') }} </a>
